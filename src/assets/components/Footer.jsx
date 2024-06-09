@@ -26,9 +26,7 @@ const Footer = () => {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
               corporis blanditiis id odit corrupti eaque culpa facilis harum
               suscipit qui et error similique iure maxime maiores officia rem
-              quasi, repudiandae labore dolorem cupiditate numquam vitae atque
-              ex. Iure nisi cum mollitia accusamus, quibusdam cumque hic!
-              Voluptatem repellatatqueuta!
+          
             </p>
           </div>
         </div>
