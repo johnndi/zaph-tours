@@ -1,0 +1,153 @@
+.homep{
+  background-color:#95D2B3;
+}
+.hero {
+  background: url("../assets/heroback.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 70vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+.herotxt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.herotxt1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.aboutus {
+  
+  padding: 0;
+  margin: 0;
+}
+
+
+.abouttitle {
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  text-decoration: underline;
+  text-transform: capitalize;
+  margin-top: 2rem;
+}
+.aboutcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3rem;
+  margin: 1rem 2rem;
+  gap: 4rem;
+}
+
+.about {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: auto;
+  height: auto;
+  border: 3px solid aqua;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 1rem;
+  box-shadow: 0 0px 10px rgba(71, 71, 71, 0.2);
+  transition: 0.3s linear;
+}
+@media screen and (max-width: 45em) {
+  .about {
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+  }
+}
+
+.aboutimg {
+  width: 30%;
+  border-radius: 50%;
+  margin: auto;
+}
+.featureddestination {
+  width: 100%;
+  
+}
+.ourdestination {
+  text-align: center;
+  padding: 1rem;
+}
+.featurecontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.destinationitem {
+  text-align: center;
+  padding: 1rem;
+  margin: 0.3rem;
+  gap: 2rem;
+  width: 300px;
+  border: 3px solid aqua;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.testimonials {
+  align-items:center;
+}
+.newsletter {
+  
+  width: 100%;
+}
+
+.formtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newstitle {
+  text-align: center;
+}
+.formtitle {
+  text-align: center;
+  padding: 0.5rem;
+  margin: 0.3rem;
+}
+
+.registerform {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  gap: 0.5rem;
+  padding: 1rem;
+}
+.register {
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.submit {
+  padding: 1rem;
+  border-radius: 10px;
+}
+.destinationimg {
+  border-radius: 10px;
+}
+.price {
+  color: red;
+}

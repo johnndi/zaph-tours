@@ -1,0 +1,59 @@
+.tripp{
+  background-color:#95D2B3;
+}
+.triphero {
+  background: url("../assets/trip.webp");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 60vh;
+  display:flex;
+  justify-content:center;
+}
+.triptitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-size:50px;
+  color:#55ad9b;
+}
+.triptitle p{
+  padding-top:1.5rem;
+}
+.tripsec {
+  width: 100%;
+  margin: 2rem;
+}
+.sectitle {
+  text-align: center;
+  padding: 1rem;
+  text-transform: capitalize;
+}
+.tripcontain {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  gap: 2rem;
+}
+.tripitem {
+  align-items: center;
+  padding: 1rem;
+  margin: 0.5rem;
+  width: 300px;
+  border: 3px solid aqua;
+  border-radius: 10px;
+}
+.triptext {
+  text-align: center;
+  padding: 0.5rem;
+}
+.price {
+  color: red;
+}
+.tripitem img{
+  border-radius:10px;
+}

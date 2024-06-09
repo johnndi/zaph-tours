@@ -1,0 +1,118 @@
+.destinationp{
+  background-color:#95D2B3;
+}
+.destinationh {
+  display:flex;
+  justify-content:center;
+  background: url("../assets/destination.avif");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 70vh;
+}
+.txtdes{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+text-transform:capitalize;
+
+
+}
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  font-size: 40px;
+}
+.content h2 {
+  text-align: center;
+  text-transform: capitalize;
+  padding-top: 50px;
+}
+
+.one {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0.3rem;
+  padding: 0.5rem;
+}
+.featuredestination {
+  width: 100%;
+}
+.featurecontainers {
+  justify-content: center;
+  align-items: center;
+  row-gap: 4rem;
+  overflow: hidden;
+}
+.destinationitem2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 4rem;
+  gap: 2rem;
+  width: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all, 0.5s;
+}
+.destinationitem2:hover {
+  border: 3px solid aqua;
+  transform: scale(1.1);
+}
+.destinationitem1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  margin: 4rem;
+  gap: 2rem;
+  width: auto;
+
+  overflow: hidden;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.destinationitem1:hover {
+  border: 3px solid aqua;
+  transform: scale(1.1);
+}
+.destinationtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 0.3rem;
+  line-height:40px;
+}
+.destinationtext h2{
+  text-transform:capitalize;
+  padding:1rem;
+  
+}
+.img {
+  border-radius: 10px;
+}
+@media screen and (max-width: 42.125em) {
+  .destinationitem1 {
+    flex-wrap: wrap;
+  }
+  .destinationitem2 {
+    flex-wrap: wrap;
+  }
+}
+.learnmore{
+  padding:1rem;
+  border-radius:10px;
+  transition:all 0.5s;
+
+}
+.learnmore:hover{
+  background:aqua;
+}

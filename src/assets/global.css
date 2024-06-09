@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Goudy Bookletter 1911", serif;
+  font-weight: 400;
+  font-style: normal;
+  background: antiquewhite;
+  transition: all 0.5s;
+  line-height:40px;
+  font-weight: 400;
+}
