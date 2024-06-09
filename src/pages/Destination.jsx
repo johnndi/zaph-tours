@@ -71,7 +71,7 @@ const Destination = () => {
           <div className="destinationitem1">
             <img src={kariandusi} alt="kariandusi meuseum" className="img" />
             <div className="destinationtext">
-              <h2>kariandusi meusem</h2>
+              <h2>kariandusi meuseum</h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque
                 corporis blanditiis id odit corrupti eaque culpa facilis harum
