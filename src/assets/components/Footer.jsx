@@ -12,7 +12,7 @@ const Footer = () => {
           <p>follow us on our social media pages</p>
           <div className="links">
             <a href="www.meta.com">{<FaFacebook />}facebook</a>
-            <a href="www.meta.com">{<FaInstagram />}FaInstagram</a>
+            <a href="www.meta.com">{<FaInstagram />}Instagram</a>
             <a href="www.meta.com">{<FaTwitter />}twitter</a>
             <a href="www.meta.com">{<FaLinkedin />}linkedin</a>
             <a href="www.meta.com">{<FaDiscord />}join our discord</a>
