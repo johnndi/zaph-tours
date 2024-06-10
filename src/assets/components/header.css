@@ -3,8 +3,8 @@
   justify-content: space-between;
   background:#d8efd3;
 }
-@media screen and (max-width: 23.75em) {
-  .header {
+@media screen and (max-width: 34.375em) {
+  .Header {
     flex-wrap: wrap;
   }
 }
@@ -38,11 +38,7 @@
   align-items: center;
   justify-content: center;
 }
-@media screen and (max-width: 34.375em) {
-  .NavList-items {
-    flex-wrap: wrap;
-  }
-}
+
 .navItem a {
   text-decoration: none;
   text-transform: capitalize;
